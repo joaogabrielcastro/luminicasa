@@ -1,0 +1,49 @@
+
+
+
+.cards{
+    width: 400px;
+    height: 400px;
+    animation: slidein infinite;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+
+/*@keyframes slidein {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(100%);
+    }
+  }*/
+  #marca{
+    width: 100px;
+    height: 100px;
+  }
+  *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  }
+
+  .background{
+  background-color:rgb(141, 106, 173);
+
+  }
+  header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0%;
+    z-index: 1000;
+    position: fixed;
+    background-color: aqua;
+
+  }
